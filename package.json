@@ -1,0 +1,29 @@
+{
+  "name": "express-with-react-ui",
+  "version": "1.0.0",
+  "description": "boilerplate code for express/react application",
+  "main": "server.js",
+  "scripts": {
+    "build": "cd react-ui/ && npm install && npm run build",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
