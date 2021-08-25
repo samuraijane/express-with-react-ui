@@ -34,4 +34,4 @@ This application can easily be deployed to Heroku. Details forthcoming.
 
 ## Notes
 
-When you remove **.gitignore** inside of **react-ui/**, it might confuse git's tracking to the point where you'll see 5k+ changes it's trying to manage. To get around this, simple close and restart Visual Studio Code.
+When you remove **react-ui/.gitignore**, it might confuse git's tracking to the point where you'll see 5k+ changes that it will attempt to manage. To get around this, simply close and restart Visual Studio Code.
