@@ -6,19 +6,19 @@
 
 ## Installation
 
-Install the dependencies for express ---> `npm install`
-Rename **.env-example** to **.env** ---> `mv .env-example .env`
-Initiate a react project ---> `npx create-react-app react-ui --use-npm`
-Change your location to **react-ui** ---> `cd react-ui`
-Delete react's **.gitignore** ---> `rm .gitignore`
-Delete react's **README.md** ---> `rm README.md`
+- Install the dependencies for express ---> `npm install`
+- Rename **.env-example** to **.env** ---> `mv .env-example .env`
+- Initiate a react project ---> `npx create-react-app react-ui --use-npm`
+- Change your location to **react-ui** ---> `cd react-ui`
+- Delete react's **.gitignore** ---> `rm .gitignore`
+- Delete react's **README.md** ---> `rm README.md`
 
 ## Up and running
 
-Inside **react-ui/**, Create react's **build/** directory ---> `npm run build`
-Change your location to the root directory ---> `cd ..`
-Start the server in development mode ---> `npm run dev`
-In a browser, navigate to **localhost:8080**
+- Inside **react-ui/**, Create react's **build/** directory ---> `npm run build`
+- Change your location to the root directory ---> `cd ..`
+- Start the server in development mode ---> `npm run dev`
+- In a browser, navigate to **localhost:8080**
 
 ## Building the react part of the application
 
