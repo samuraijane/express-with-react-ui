@@ -10,7 +10,7 @@
 - Rename **.env-example** to **.env** ---> `mv .env-example .env`
 - Initiate a react project ---> `npx create-react-app react-ui --use-npm`
 - Change your location to **react-ui** ---> `cd react-ui`
-- Delete react's **.gitignore** ---> `rm .gitignore`
+- Delete react's **.gitignore** ---> `rm .gitignore` (see **Notes** below)
 - Delete react's **README.md** ---> `rm README.md`
 
 ## Up and running
@@ -31,3 +31,7 @@ This port is handled by react. This is the address you should use in a browswer 
 ## Heroku
 
 This application can easily be deployed to Heroku. Details forthcoming.
+
+## Notes
+
+When you remove **.gitignore** inside of **react-ui/**, it might confuse git's tracking to the point where you'll see 5k+ changes it's trying to manage. To get around this, simple close and restart Visual Studio Code.
