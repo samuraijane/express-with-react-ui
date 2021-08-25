@@ -20,9 +20,13 @@
 - Start the server in development mode ---> `npm run dev`
 - In a browser, navigate to **localhost:8080**
 
-## Building the react part of the application
+## 127.0.0.1:8080
 
-Because the contents of **react-ui/build/** are static, any changes you make in the react part of the application will not be reflected at **localhost:8080** unless you run `npm run build` after each change. Since this slows develoment, run `npm run start` inside of **react-ui** and then navgiate to **localhost:3000** in a browser to see changes as you build in react.
+This port is handled by express. This address in a browser most accurately reflects the final state of the application. Because it renders the interface with static code found in **react-ui/build/**, any changes you make to the interface will not be reflected here until you run `npm run build` inside of **react-ui/**.
+
+## 127.0.0.1:3000
+
+This port is handled by react. This is the address you should use in a browswer when building the interface locally.
 
 ## Heroku
 
